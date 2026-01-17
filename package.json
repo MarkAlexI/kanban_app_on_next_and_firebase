@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm package-lock.json && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,8 +13,8 @@
     "@reduxjs/toolkit": "^2.2.5",
     "@vercel/analytics": "^1.3.1",
     "firebase": "^11.0.0",
-    "next": "13.5.6",
-    "next-auth": "^4.24.7",
+    "next": "13.5.11",
+    "next-auth": "^4.24.9",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
